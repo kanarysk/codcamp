@@ -10,4 +10,4 @@ function myFunction (n, s) {
   console.log(answer)
 }
 
-myFunction(5, n);
+myFunction(5, s);
