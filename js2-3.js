@@ -3,11 +3,8 @@ sample:
 input-10 -> output-100
 */
 
-var s = 2;
-
-function myFunction (n, s) {
-  var answer = n * s;
-  console.log(answer)
+function squareOf (n) {
+	return n * n
 }
 
-myFunction(5, s);
+console.log (squareOf(10));

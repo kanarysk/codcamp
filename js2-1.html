@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>
+<br>If it's less than 50 degrees, wear a coat. </br>
+<br>If it's less than 30 degrees, wear a coat and a hat. </br>
+<br>If it's less than 0 degrees, stay inside. </br>
+<br>Otherwise, wear whatever you want. </br>
+	</p>
+<script>
+
+function temperature(F) {
+	if (F > 0 && F < 30) { 
+		return "wear coat and hat";
+	} else if (F > 30 && F < 50) {
+		return "wear coat"
+	} else if (F < 0) {
+		return "stay inside"
+	} else {
+		return "wear what ever you want"
+	}
+}
+	console.log(temperature(45)) 
+	//! If you give exact temperature like: 0, 30 or 50, it will return to 'else' and will show "wear what ever you want", because we did not put equal operator. To solve it we can use <=,>=. But on question if not given clearly. //
+
+</script>
+</body>
+</html> 
